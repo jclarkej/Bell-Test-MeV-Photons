@@ -6,7 +6,7 @@ This repository contains the Python code written by Jack Clarke (UCL) for the ma
 
 We study a POVM-based analysis of photon polarimetry via sequential Compton scattering. Scattering trajectories are found where the Compton analyzing power $`\beta`$ (which determines the polarization measurement sharpness) is enhanced. 
 
-This POVM-analysis can be used to describe a Bell test where Alice and Bob each perform unsharp polarization measurements on separate MeV photons originating from electron-positron annihilation. For $`N`\geq2$ sequential scattering events per side, $`\beta`$ can be enhanced beyond the critical threshold and violations of the CHSH inequality may be realized.
+This POVM-analysis can be used to describe a Bell test where Alice and Bob each perform unsharp polarization measurements on separate MeV photons originating from electron-positron annihilation. For $`N\geq2`$ sequential scattering events per side, $`\beta`$ can be enhanced beyond the critical threshold and violations of the CHSH inequality may be realized.
 
 The script *Bell_test_MeV.py* reproduces the numerical results presented in the manuscript including: Fig.2 of the main text, Tables I and II of the End Matter, and Table I of the Supplemental Material. This code may also be used to confirm the monotonic trend of $`\beta\rightarrow1`$ and $`|S|\rightarrow 2\sqrt{2}`$ as $`N`$ increases, in which case the number of maximum iterations in the **`SLQP OPTIMIZATION`** code block should be increased.
 
