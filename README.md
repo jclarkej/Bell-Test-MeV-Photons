@@ -1,6 +1,6 @@
 # Bell Test for MeV Photons via POVM-based Compton Polarimetry
 
-This repository contains the Python code written by Jack Clarke (UCL) for the manuscript: **"Bell Test for MeV Photons via POVM-based Compton Polarimetry"**.
+This repository contains the Python code for the manuscript: **"Bell Test for MeV Photons via POVM-based Compton Polarimetry"**.
 
 ## Description
 
